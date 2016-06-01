@@ -59,13 +59,54 @@ console.log(printObject({ a: 10, b: 20, c: 30 }));
 console.log(printObject({ firstName: 'pork', lastName: 'chops' }));*/
 
 //Part 7
-function vowels(string) { //Create a function that takes string as a parameter
-    return string.split(/[aeiou]/g);//Removes vowels from the string parameter
-    //Turn the vowels from the removeVowels into an array
-    
+/*function vowels(string) { //Create a function that takes string as a parameter
+    var vowelLetters = ["a", "e", "i", "o", "u"];
+    for (var i = 0; i < vowels.length; i++) {
+        if (string === vowels[i]) {
+            return true
+        }
+    }
+    return false;
+}
+console.log(vowels('alabama'));
+console.log(vowels('What evil odd ducks!'));*/
+
+
+//Part 1
+/*function getName (anObj) {
+    var name = anObj.name;
+    return name;
 }
 
-console.log(vowels('alabama'));
+console.log(getName({name: "Luisa", age: 25}));
+console.log(getName({name: "Grace", age: 31}));*/
+
+//Part 2
+/*function totalLetters (array) {
+    var total = 0;
+    for (var i = 0; i < array.length; i++) {
+        total = total + array[i].length
+    }
+    return total
+}
+
+console.log(totalLetters(['javascript', 'is', 'awesome']));*/
+
+//Part 3
+/*function keyValue (a, b) {
+    var obj = {};
+    obj[a] = b;
+    return obj
+}
+
+console.log(keyValue('city', 'Denver'));*/
+
+//Part 4
+/*function negativeIndex (x, negativeNumber) {
+    return x[x.length + negativeNumber];
+}
+
+console.log(negativeIndex(['a', 'b', 'c', 'd', 'e'], -2));*/
 
 
 
