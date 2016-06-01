@@ -108,11 +108,51 @@ console.log(keyValue('city', 'Denver'));*/
 
 console.log(negativeIndex(['a', 'b', 'c', 'd', 'e'], -2));*/
 
+//Part 5
+/*function removeM (string) {
+    //returns removes all 'm' characters from the string. 
+    return string.replace(/m/g,'');
+}
+console.log(removeM('family'));
+console.log(removeM('memory'));*/
 
+//Part 6
+/*function printObject (object) {
+    for (var key in object) {
+        console.log(key + " is " + object[key]);
+    }
+}
 
+printObject({ a: 10, b: 20, c: 30 });
+printObject({ firstName: 'pork', lastName: 'chops' });*/
 
+//Part 7
+/*function vowels (string) {
+    var array = string.split("");
+    var newArray = [];
+    for (var i = 0; i < array.length; i++) {
+        if (array[i] === "a" || array[i] === "e" || array[i] === "i" || array[i] === "o" || array[i] === "u") {
+            newArray.push(array[i]);    
+            }
+    }
+    return newArray;
+}
 
+console.log(vowels('alabama'));
+console.log(vowels('What evil odd ducks!'));*/
 
+//Part 8
+/*function twins (array) {
+    for (var i = 0; i < array.length; i+=2) {
+        if (array[i] !== array[i+1]) {
+            console.log(false);
+        }
+    }
+    console.log(true);
+}
 
-
+twins(['a', 'a', 'b', 'b', 'c', 'c']);
+twins(['a', 'a', 'b', 'c', 'd', 'd']);
+twins(['a', 'a', 'b', 'z']);
+twins(['a', 'a', undefined]); */
 
