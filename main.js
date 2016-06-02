@@ -142,17 +142,23 @@ console.log(vowels('alabama'));
 console.log(vowels('What evil odd ducks!'));*/
 
 //Part 8
-/*function twins (array) {
+function twins (array) {
     for (var i = 0; i < array.length; i+=2) {
-        if (array[i] !== array[i+1]) {
-            console.log(false);
+        if (array[i] !== array[i+1] || array[i] === undefined) {
+            return false;
         }
     }
-    console.log(true);
+    return true;
 }
 
-twins(['a', 'a', 'b', 'b', 'c', 'c']);
-twins(['a', 'a', 'b', 'c', 'd', 'd']);
-twins(['a', 'a', 'b', 'z']);
-twins(['a', 'a', undefined]); */
+console.log(twins(['a', 'a', 'b', 'b', 'c', 'c']));
+console.log(twins(['a', 'a', 'b', 'c', 'd', 'd']));
+console.log(twins(['a', 'a', 'b', 'z']));
+console.log(twins(['a', 'a', undefined])); 
+
+//Part 9
+function or (arrayOfBooleans) {
+    
+
+
 
