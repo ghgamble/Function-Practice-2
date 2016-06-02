@@ -142,7 +142,7 @@ console.log(vowels('alabama'));
 console.log(vowels('What evil odd ducks!'));*/
 
 //Part 8
-function twins (array) {
+/*function twins (array) {
     for (var i = 0; i < array.length; i+=2) {
         if (array[i] !== array[i+1] || array[i] === undefined) {
             return false;
@@ -154,11 +154,33 @@ function twins (array) {
 console.log(twins(['a', 'a', 'b', 'b', 'c', 'c']));
 console.log(twins(['a', 'a', 'b', 'c', 'd', 'd']));
 console.log(twins(['a', 'a', 'b', 'z']));
-console.log(twins(['a', 'a', undefined])); 
+console.log(twins(['a', 'a', undefined]));*/
 
 //Part 9
-function or (arrayOfBooleans) {
-    
+/*function or (arrayOfBooleans) {
+    //Takes an array of Booleans
+    for (var i = 0; i < arrayOfBooleans.length; i++) {
+        if (arrayOfBooleans[i] === true) {
+            return true
+        }
+
+    }
+    return false
+    //Evaluates them to find out if any of the booleans in the array equals the value true
+    //If it finds a true value, the function 
+    //returns true immediately and stops checking values
+}
+
+console.log(or([false, false, true, false])); //should return true
+console.log(or([false, false, false])); //should return false
+console.log(or([])); //should return false*/
 
 
+//Part 10
+function unique (arrayOfStrings) {
+    //Takes the array of strings and
+    //Returns a new array of the unique values/no duplicates
+}
+unique(['a', 'b', 'a', 'c', 'd', 'd']) should return ['a', 'b', 'c', 'd']
+unique(['todd', 'avery', 'maria', 'avery']) should return ['todd', 'avery', 'maria']
 
