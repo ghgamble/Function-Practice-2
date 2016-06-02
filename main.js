@@ -177,10 +177,15 @@ console.log(or([])); //should return false*/
 
 
 //Part 10
-function unique (arrayOfStrings) {
-    //Takes the array of strings and
-    //Returns a new array of the unique values/no duplicates
+/*function unique (arrayOfStrings) {
+    var newArray = []; //Create the new array that the loop creates
+    for (var i = 0; i < arrayOfStrings.length; i++) { //Takes the array of strings and
+        if (newArray.indexOf(arrayOfStrings[i]) === -1) { //Filters through them to find the unique values, while ignoring if the ones that aren't unique
+            newArray.push(arrayOfStrings[i]);       
+        }
+    }
+    return newArray; //Returns a new array of the unique values/no duplicates
 }
-unique(['a', 'b', 'a', 'c', 'd', 'd']) should return ['a', 'b', 'c', 'd']
-unique(['todd', 'avery', 'maria', 'avery']) should return ['todd', 'avery', 'maria']
+console.log(unique(['a', 'b', 'a', 'c', 'd', 'd']));
+console.log(unique(['todd', 'avery', 'maria', 'avery']));*/
 
